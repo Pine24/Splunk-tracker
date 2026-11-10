@@ -23,11 +23,6 @@
       "url": "https://www.splunk.com/en_us/legal/splunk-software-support-policy.html"
     },
     {
-      "category": "Compatibility and support",
-      "title": "Splunk Enterprise Security 7.3 end of support announcement",
-      "url": "https://community.splunk.com/t5/Product-News-Announcements/Splunk-Enterprise-Security-ES-7-3-is-approaching-the-end-of/ba-p/755581"
-    },
-    {
       "category": "Install and upgrade",
       "title": "How to upgrade Splunk Enterprise (10.4)",
       "url": "https://help.splunk.com/en/splunk-enterprise/administer/install-and-upgrade/10.4/upgrade-or-migrate-splunk-enterprise"
@@ -78,66 +73,6 @@
       "url": "https://help.splunk.com/en/splunk-enterprise/administer/distributed-search/10.4/overview-of-search-head-clustering/search-head-clustering-architecture"
     },
     {
-      "category": "Enterprise Security",
-      "title": "Splunk Enterprise Security 8: home",
-      "url": "https://help.splunk.com/en/splunk-enterprise-security-8"
-    },
-    {
-      "category": "Enterprise Security",
-      "title": "Configure and administer Splunk Enterprise Security",
-      "url": "https://help.splunk.com/en/splunk-enterprise-security-8/administer"
-    },
-    {
-      "category": "Enterprise Security",
-      "title": "ES 8 REST API reference (8.0)",
-      "url": "https://help.splunk.com/en/splunk-enterprise-security-8/rest-api-reference/8.0"
-    },
-    {
-      "category": "Enterprise Security",
-      "title": "Analyze risk with risk-based alerting (ES 8.5)",
-      "url": "https://help.splunk.com/en/splunk-enterprise-security-8/user-guide/8.5/mission-control/analyze-risk-with-risk-based-alerting-in-splunk-enterprise-security"
-    },
-    {
-      "category": "Enterprise Security",
-      "title": "About risk-based alerting (ES 7)",
-      "url": "https://help.splunk.com/en/splunk-enterprise-security-7/risk-based-alerting"
-    },
-    {
-      "category": "Enterprise Security",
-      "title": "How risk-based alerting works (ES 7.3)",
-      "url": "https://help.splunk.com/en/splunk-enterprise-security-7/risk-based-alerting/7.3/introduction/how-risk-based-alerting-works-in-splunk-enterprise-security"
-    },
-    {
-      "category": "Enterprise Security",
-      "title": "Managing risk using risk-based alerting (ES 7.3)",
-      "url": "https://help.splunk.com/en/splunk-enterprise-security-7/risk-based-alerting/7.3/best-practices/managing-risk-using-risk-based-alerting-in-splunk-enterprise-security"
-    },
-    {
-      "category": "Enterprise Security",
-      "title": "Risk-based alerting tutorial (ES 7.3)",
-      "url": "https://help.splunk.com/en/splunk-enterprise-security-7/tutorials-and-use-cases/7.3/risk-based-alerting-tutorial"
-    },
-    {
-      "category": "Enterprise Security",
-      "title": "Exploring security content with ES (ESCU 6.8)",
-      "url": "https://help.splunk.com/en/splunk-enterprise-security-8/security-content-update/how-to-use-splunk-security-content/6.8/use-splunk-security-content/exploring-security-content-with-splunk-enterprise-security"
-    },
-    {
-      "category": "Enterprise Security",
-      "title": "Splunk ES Content Update (ESCU) docs",
-      "url": "https://docs.splunk.com/Documentation/ESCU"
-    },
-    {
-      "category": "Enterprise Security",
-      "title": "Configure and administer ES (8.7)",
-      "url": "https://help.splunk.com/en/splunk-enterprise-security-8/administer/8.7/configuration-and-settings/configure-and-administer-splunk-enterprise-security"
-    },
-    {
-      "category": "Enterprise Security",
-      "title": "Manage general settings for ES (8.7)",
-      "url": "https://help.splunk.com/en/splunk-enterprise-security-8/administer/8.7/configuration-and-settings/manage-general-settings-for-splunk-enterprise-security"
-    },
-    {
       "category": "Common Information Model",
       "title": "Overview of the Splunk Common Information Model",
       "url": "https://help.splunk.com/en/data-management/common-information-model"
@@ -163,16 +98,6 @@
       "url": "https://help.splunk.com/en/data-management/process-data-at-the-edge/use-edge-processors-for-splunk-cloud-platform"
     },
     {
-      "category": "IT Service Intelligence",
-      "title": "Splunk IT Service Intelligence: documentation home",
-      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence"
-    },
-    {
-      "category": "IT Service Intelligence",
-      "title": "Content Packs for ITSI (2.4)",
-      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/content-packs-for-itsi/2.4/content-packs-for-itsi"
-    },
-    {
       "category": "DB Connect",
       "title": "About Splunk DB Connect (4.3)",
       "url": "https://help.splunk.com/en/splunk-enterprise/connect-relational-databases/deploy-and-use-splunk-db-connect/4.3/introduction"
@@ -196,16 +121,6 @@
       "category": "REST APIs and developer",
       "title": "REST API endpoints reference list (10.4)",
       "url": "https://help.splunk.com/en/splunk-enterprise/rest-api-reference/10.4/introduction/endpoints-reference-list"
-    },
-    {
-      "category": "Splunk Cloud administration",
-      "title": "Manage Splunkbase apps in Splunk Cloud Platform (ACS API)",
-      "url": "https://help.splunk.com/en/splunk-cloud-platform/administer/admin-config-service-manual/10.3.2512/administer-splunk-cloud-platform-using-the-admin-config-service-acs-api/manage-splunkbase-apps-in-splunk-cloud-platform"
-    },
-    {
-      "category": "SOAR",
-      "title": "Splunk SOAR Platform API: App REST",
-      "url": "https://docs.splunk.com/Documentation/SOAR/latest/PlatformAPI/RESTApp"
     }
   ]
 }
