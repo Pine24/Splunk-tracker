@@ -13,7 +13,7 @@ a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
 h1, h2, h3 { margin: 0; line-height: 1.2; }
 
-.wrap { max-width: 1240px; margin: 0 auto; padding: 0 1.25rem; }
+.wrap { max-width: 1680px; margin: 0 auto; padding: 0 1.25rem; }
 
 /* sticky top bar */
 .topbar { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--bg) 85%, transparent); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
@@ -27,8 +27,9 @@ nav a:hover { background: var(--line); text-decoration: none; }
 /* page layout: versions full width, docs + tools side by side */
 .layout { display: grid; gap: 1.25rem; padding-top: 1.25rem; padding-bottom: 3rem; grid-template-columns: 1fr; }
 @media (min-width: 960px) {
-  .layout { grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); align-items: start; }
-  .span { grid-column: 1 / -1; }
+  .layout { grid-template-columns: 270px minmax(0, 1fr); align-items: start; }
+  .side { grid-column: 1; grid-row: 1 / span 2; position: sticky; top: 5rem; max-height: calc(100vh - 6rem); overflow-y: auto; }
+  .main-col { grid-column: 2; }
 }
 .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 1.25rem; }
 .panel h2 { font-size: 1.05rem; margin-bottom: 1rem; }
@@ -81,3 +82,8 @@ nav a:hover { background: var(--line); text-decoration: none; }
 @media (min-width: 1040px) { .columns { columns: 3; } }
 .group { break-inside: avoid; margin-bottom: 1.4rem; }
 .panel .group h3 { margin-top: 0; }
+
+/* sidebar: quick links stack in a single column; docs get more columns as width allows */
+.side .columns { columns: 1; margin-top: .6rem; }
+@media (min-width: 960px) and (max-width: 1399px) { #docs .columns { columns: 2; } }
+@media (min-width: 1400px) { #docs .columns { columns: 3; } }

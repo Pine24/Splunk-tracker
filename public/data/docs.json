@@ -54,23 +54,53 @@
     },
     {
       "category": "Clustering",
-      "title": "About indexer clusters and index replication (10.4)",
+      "title": "Indexer cluster: about clusters and index replication",
       "url": "https://help.splunk.com/en/splunk-enterprise/administer/manage-indexers-and-indexer-clusters/10.4/overview-of-indexer-clusters-and-index-replication"
     },
     {
       "category": "Clustering",
-      "title": "Use indexer clusters to scale indexing (10.4)",
+      "title": "Indexer cluster: deployment overview",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/manage-indexers-and-indexer-clusters/10.4/deploy-the-indexer-cluster"
+    },
+    {
+      "category": "Clustering",
+      "title": "Indexer cluster: use clusters to scale indexing",
       "url": "https://help.splunk.com/en/splunk-enterprise/administer/manage-indexers-and-indexer-clusters/10.4/deploy-the-indexer-cluster/use-indexer-clusters-to-scale-indexing"
     },
     {
       "category": "Clustering",
-      "title": "About search head clustering (10.4)",
+      "title": "Indexer cluster: configure the search head",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/manage-indexers-and-indexer-clusters/10.4/configure-the-search-head"
+    },
+    {
+      "category": "Clustering",
+      "title": "Indexer discovery: connect forwarders to peer nodes",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/manage-indexers-and-indexer-clusters/10.4/get-data-into-the-indexer-cluster/use-indexer-discovery-to-connect-forwarders-to-peer-nodes"
+    },
+    {
+      "category": "Clustering",
+      "title": "Indexer discovery: use forwarders to get data into the cluster",
+      "url": "https://help.splunk.com/en/data-management/manage-splunk-enterprise-indexers/10.4/get-data-into-the-indexer-cluster/use-forwarders-to-get-data-into-the-indexer-cluster"
+    },
+    {
+      "category": "Clustering",
+      "title": "Search head cluster: about search head clustering",
       "url": "https://help.splunk.com/en/splunk-enterprise/administer/distributed-search/10.4/overview-of-search-head-clustering"
     },
     {
       "category": "Clustering",
-      "title": "Search head clustering architecture (10.4)",
+      "title": "Search head cluster: architecture",
       "url": "https://help.splunk.com/en/splunk-enterprise/administer/distributed-search/10.4/overview-of-search-head-clustering/search-head-clustering-architecture"
+    },
+    {
+      "category": "Clustering",
+      "title": "Search head cluster: requirements and deployment considerations",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/distributed-search/10.4/deploy-search-head-clustering"
+    },
+    {
+      "category": "Clustering",
+      "title": "Search head cluster: deploy a search head cluster",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/distributed-search/10.4/deploy-search-head-clustering/deploy-a-search-head-cluster"
     },
     {
       "category": "Common Information Model",

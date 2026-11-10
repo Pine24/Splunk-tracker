@@ -20,13 +20,13 @@ export default function App() {
         </div>
       </header>
       <main className="wrap layout">
-        <Section id="versions" className="span" title="Splunk Enterprise versions" file="versions.json">
+        <Section id="versions" className="main-col" title="Splunk Enterprise versions" file="versions.json">
           {(d) => <Versions data={d} />}
         </Section>
-        <Section id="tools" className="span" title="Quick links" file="links.json">
+        <Section id="tools" className="side" title="Quick links" file="links.json">
           {(d) => <QuickLinks data={d} />}
         </Section>
-        <Section id="docs" className="span" title="Documentation map" file="docs.json">
+        <Section id="docs" className="main-col" title="Documentation map" file="docs.json">
           {(d) => <Docs data={d} />}
         </Section>
       </main>
