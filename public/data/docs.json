@@ -1,21 +1,36 @@
 {
   "generated": "2026-11-10T00:00:00Z",
-  "source": "hand-picked; every URL was seen in official Splunk documentation search results on 2026-11-10. Links with a version in the path (e.g. 10.4) are pinned to that release.",
+  "source": "hand-picked; every URL was seen in official Splunk documentation search results on 2026-11-10. Enterprise pages target 10.6 (latest); a version in the path means pinned to that release.",
   "docs": [
     {
       "category": "Release notes",
-      "title": "Welcome to Splunk Enterprise 10.2 (what's new)",
-      "url": "https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/release-notes/10.2/whats-new/welcome-to-splunk-enterprise-10.2"
+      "title": "Welcome to Splunk Enterprise 10.6",
+      "url": "https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/release-notes/10.6/whats-new/welcome-to-splunk-enterprise-10.6"
     },
     {
       "category": "Release notes",
-      "title": "Deprecated and removed in version 10.2",
-      "url": "https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/release-notes/10.2/deprecated-features"
+      "title": "What's new in 10.6",
+      "url": "https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/release-notes/10.6/whats-new/whats-new-in-10.6"
     },
     {
       "category": "Release notes",
-      "title": "Deprecated and removed in version 10.0",
-      "url": "https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/release-notes/10.0/deprecated-features"
+      "title": "What's new in 10.6.1",
+      "url": "https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/release-notes/10.6/whats-new/whats-new-in-10.6.1"
+    },
+    {
+      "category": "Release notes",
+      "title": "Deprecated and removed in version 10.6",
+      "url": "https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/release-notes/10.6/deprecated-features"
+    },
+    {
+      "category": "Release notes",
+      "title": "Splunk Enterprise 10.6.0 known issues",
+      "url": "https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/release-notes/10.6/known-issues-for-this-release/known-issues/splunk-enterprise-10.6.0-known-issues"
+    },
+    {
+      "category": "Release notes",
+      "title": "Splunk Enterprise 10.6.0 fixed issues",
+      "url": "https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/release-notes/10.6/fixed-issues/splunk-enterprise-10.6.0-fixed-issues"
     },
     {
       "category": "Compatibility and support",
@@ -34,8 +49,28 @@
     },
     {
       "category": "Install and upgrade",
-      "title": "About upgrading to 10.2: READ THIS FIRST",
-      "url": "https://help.splunk.com/en/splunk-enterprise/administer/install-and-upgrade/10.2/upgrade-or-migrate-splunk-enterprise/about-upgrading-to-10.2-read-this-first"
+      "title": "About upgrading to 10.6: READ THIS FIRST",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/install-and-upgrade/10.6/upgrade-or-migrate-splunk-enterprise/about-upgrading-to-10.6-read-this-first"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "How to upgrade Splunk Enterprise (10.6)",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/install-and-upgrade/10.6/upgrade-or-migrate-splunk-enterprise"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Upgrade on UNIX (10.6)",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/install-and-upgrade/10.6/upgrade-or-migrate-splunk-enterprise/upgrade-on-unix"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Upgrade to a cohosted KV store (10.6)",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.6/administer-the-app-key-value-store/upgrade-to-a-cohosted-kv-store"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Upgrade the KV store server version (10.6)",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.6/administer-the-app-key-value-store/upgrade-the-kv-store-server-version"
     },
     {
       "category": "Search and SPL",
@@ -58,24 +93,9 @@
       "url": "https://help.splunk.com/en/splunk-enterprise/create-dashboards-and-reports/dashboard-studio"
     },
     {
-      "category": "Dashboards",
-      "title": "What is Splunk Dashboard Studio? (10.0)",
-      "url": "https://help.splunk.com/en/splunk-enterprise/create-dashboards-and-reports/dashboard-studio/10.0/introduction-to-splunk-dashboard-studio"
-    },
-    {
       "category": "Configuration files",
       "title": "props.conf spec (10.6)",
       "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.6/configuration-file-reference/10.6.1-configuration-file-reference/props.conf"
-    },
-    {
-      "category": "Configuration files",
-      "title": "props.conf spec (10.4)",
-      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/props.conf"
-    },
-    {
-      "category": "Configuration files",
-      "title": "props.conf spec (10.0)",
-      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.0/configuration-file-reference/10.0.3-configuration-file-reference/props.conf"
     },
     {
       "category": "Clustering",
@@ -84,38 +104,28 @@
     },
     {
       "category": "Clustering",
-      "title": "About indexer clusters and index replication (10.4)",
-      "url": "https://help.splunk.com/en/splunk-enterprise/administer/manage-indexers-and-indexer-clusters/10.4/overview-of-indexer-clusters-and-index-replication"
+      "title": "Use indexer clusters to scale indexing (10.6)",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/manage-indexers-and-indexer-clusters/10.6/deploy-the-indexer-cluster/use-indexer-clusters-to-scale-indexing"
     },
     {
       "category": "Clustering",
-      "title": "About indexer clusters and index replication (10.2)",
-      "url": "https://help.splunk.com/en/splunk-enterprise/administer/manage-indexers-and-indexer-clusters/10.2/overview-of-indexer-clusters-and-index-replication"
+      "title": "Ingest-Tier Scaling (10.6)",
+      "url": "https://help.splunk.com/en/data-management/manage-splunk-enterprise-indexers/10.6/ingest-tier-scaling"
     },
     {
       "category": "Clustering",
-      "title": "Use indexer clusters to scale indexing (10.2)",
-      "url": "https://help.splunk.com/en/splunk-enterprise/administer/manage-indexers-and-indexer-clusters/10.2/deploy-the-indexer-cluster/use-indexer-clusters-to-scale-indexing"
+      "title": "Search head cluster requirements (10.6)",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/distributed-search/10.6/deploy-search-head-clustering"
     },
     {
       "category": "Clustering",
-      "title": "About search head clustering (10.4)",
-      "url": "https://help.splunk.com/en/splunk-enterprise/administer/distributed-search/10.4/overview-of-search-head-clustering"
+      "title": "Deploy a search head cluster (10.6)",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/distributed-search/10.6/deploy-search-head-clustering/deploy-a-search-head-cluster"
     },
     {
       "category": "Clustering",
-      "title": "About search head clustering (10.2)",
-      "url": "https://help.splunk.com/en/splunk-enterprise/administer/distributed-search/10.2/overview-of-search-head-clustering"
-    },
-    {
-      "category": "Clustering",
-      "title": "About search head clustering (10.0)",
-      "url": "https://help.splunk.com/en/splunk-enterprise/administer/distributed-search/10.0/overview-of-search-head-clustering"
-    },
-    {
-      "category": "Clustering",
-      "title": "Search head clustering architecture (10.0)",
-      "url": "https://help.splunk.com/en/splunk-enterprise/administer/distributed-search/10.0/overview-of-search-head-clustering/search-head-clustering-architecture"
+      "title": "How configuration changes propagate across a search head cluster (10.6)",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/distributed-search/10.6/update-search-head-cluster-members"
     },
     {
       "category": "Enterprise Security",
@@ -126,11 +136,6 @@
       "category": "Enterprise Security",
       "title": "Configure and administer Splunk Enterprise Security",
       "url": "https://help.splunk.com/en/splunk-enterprise-security-8/administer"
-    },
-    {
-      "category": "Enterprise Security",
-      "title": "Configure and administer ES (8.3)",
-      "url": "https://help.splunk.com/en/splunk-enterprise-security-8/administer/8.3/configuration-and-settings/configure-and-administer-splunk-enterprise-security"
     },
     {
       "category": "Enterprise Security",
@@ -171,6 +176,16 @@
       "category": "Enterprise Security",
       "title": "Splunk ES Content Update (ESCU) docs",
       "url": "https://docs.splunk.com/Documentation/ESCU"
+    },
+    {
+      "category": "Enterprise Security",
+      "title": "Configure and administer ES (8.7)",
+      "url": "https://help.splunk.com/en/splunk-enterprise-security-8/administer/8.7/configuration-and-settings/configure-and-administer-splunk-enterprise-security"
+    },
+    {
+      "category": "Enterprise Security",
+      "title": "Manage general settings for ES (8.7)",
+      "url": "https://help.splunk.com/en/splunk-enterprise-security-8/administer/8.7/configuration-and-settings/manage-general-settings-for-splunk-enterprise-security"
     },
     {
       "category": "Common Information Model",
@@ -239,13 +254,13 @@
     },
     {
       "category": "REST APIs and developer",
-      "title": "REST API endpoints reference list (10.0)",
-      "url": "https://help.splunk.com/en/splunk-enterprise/rest-api-reference/10.0/introduction/endpoints-reference-list"
+      "title": "Splunkbase API reference",
+      "url": "https://dev.splunk.com/enterprise/reference/splunkbase/"
     },
     {
       "category": "REST APIs and developer",
-      "title": "Splunkbase API reference",
-      "url": "https://dev.splunk.com/enterprise/reference/splunkbase/"
+      "title": "REST API endpoints reference list (10.6)",
+      "url": "https://help.splunk.com/en/splunk-enterprise/leverage-rest-apis/rest-api-reference/10.6/introduction/endpoints-reference-list"
     },
     {
       "category": "Splunk Cloud administration",
