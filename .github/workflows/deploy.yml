@@ -2,6 +2,11 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
+  workflow_run:
+    # Commits pushed by the refresh workflow (GITHUB_TOKEN) do not trigger 'push' workflows,
+    # so redeploy explicitly whenever a refresh run finishes, even a partially failed one.
+    workflows: ["Refresh data"]
+    types: [completed]
   workflow_dispatch:
 permissions:
   contents: read
