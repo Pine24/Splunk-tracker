@@ -49,8 +49,123 @@
     },
     {
       "category": "Configuration files",
-      "title": "props.conf spec (10.4)",
+      "title": "props.conf spec",
       "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/props.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "transforms.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/transforms.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "inputs.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/inputs.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "outputs.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/outputs.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "indexes.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/indexes.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "server.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/server.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "savedsearches.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/savedsearches.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "limits.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/limits.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "web.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/web.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "authorize.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/authorize.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "authentication.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/authentication.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "serverclass.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/serverclass.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "deploymentclient.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/deploymentclient.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "distsearch.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/distsearch.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "macros.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/macros.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "eventtypes.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/eventtypes.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "tags.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/tags.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "datamodels.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/datamodels.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "app.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/app.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "alert_actions.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/alert_actions.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "fields.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/fields.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "collections.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/collections.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "restmap.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/restmap.conf"
+    },
+    {
+      "category": "Configuration files",
+      "title": "commands.conf spec",
+      "url": "https://help.splunk.com/en/splunk-enterprise/administer/admin-manual/10.4/configuration-file-reference/10.4.3-configuration-file-reference/commands.conf"
     },
     {
       "category": "Clustering",
@@ -152,5 +267,8 @@
       "title": "REST API endpoints reference list (10.4)",
       "url": "https://help.splunk.com/en/splunk-enterprise/rest-api-reference/10.4/introduction/endpoints-reference-list"
     }
-  ]
+  ],
+  "notes": {
+    "Configuration files": "Every spec ships with Splunk Enterprise: `$SPLUNK_HOME/etc/system/README/<name>.conf.spec` (and `.conf.example`), e.g. `/opt/splunk/etc/system/README/props.conf.spec`. Defaults live in `etc/system/default/` (never edit); put changes in `etc/system/local/` or an app's `local/`."
+  }
 }

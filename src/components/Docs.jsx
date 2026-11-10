@@ -1,6 +1,14 @@
 import { useState } from 'react'
 import { filterDocs, groupBy } from '../lib/filter.js'
 
+function Note({ text }) {
+  return (
+    <p className="note">
+      {text.split('`').map((part, i) => (i % 2 ? <code key={i}>{part}</code> : part))}
+    </p>
+  )
+}
+
 export default function Docs({ data }) {
   const [q, setQ] = useState('')
   const shown = filterDocs(data.docs, q)
@@ -20,6 +28,7 @@ export default function Docs({ data }) {
       {[...groups].map(([cat, items]) => (
         <div key={cat} className="group">
           <h3>{cat}</h3>
+          {data.notes?.[cat] && <Note text={data.notes[cat]} />}
           <ul>
             {items.map((d) => (
               <li key={d.url}><a href={d.url} target="_blank" rel="noreferrer">{d.title}</a></li>
