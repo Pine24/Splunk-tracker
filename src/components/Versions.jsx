@@ -6,7 +6,7 @@ export default function Versions({ data }) {
   const enterprise = data.versions
     .filter((v) => v.endOfSupport)
     .map((v) => ({ ...v, days: daysLeft(v.endOfSupport) }))
-    .sort(byVersionDesc)
+    .sort((a, b) => byVersionDesc(b, a))
   const cloudOnly = data.versions.filter((v) => !v.endOfSupport).sort(byVersionDesc)
 
   return (
