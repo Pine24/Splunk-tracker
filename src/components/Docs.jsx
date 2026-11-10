@@ -16,8 +16,9 @@ export default function Docs({ data }) {
         aria-label="Filter documentation links"
       />
       <p className="meta">{shown.length} of {data.docs.length} links</p>
+      <div className="columns">
       {[...groups].map(([cat, items]) => (
-        <div key={cat}>
+        <div key={cat} className="group">
           <h3>{cat}</h3>
           <ul>
             {items.map((d) => (
@@ -26,6 +27,7 @@ export default function Docs({ data }) {
           </ul>
         </div>
       ))}
+      </div>
       <p className="meta">Source: {data.source}</p>
     </>
   )

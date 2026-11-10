@@ -14,8 +14,8 @@ export default function App() {
           </div>
           <nav>
             <a href="#versions">Versions</a>
-            <a href="#docs">Docs</a>
             <a href="#tools">Tools</a>
+            <a href="#docs">Docs</a>
           </nav>
         </div>
       </header>
@@ -23,11 +23,11 @@ export default function App() {
         <Section id="versions" className="span" title="Splunk Enterprise versions" file="versions.json">
           {(d) => <Versions data={d} />}
         </Section>
-        <Section id="docs" title="Documentation map" file="docs.json">
-          {(d) => <Docs data={d} />}
-        </Section>
-        <Section id="tools" title="Quick links" file="links.json">
+        <Section id="tools" className="span" title="Quick links" file="links.json">
           {(d) => <QuickLinks data={d} />}
+        </Section>
+        <Section id="docs" className="span" title="Documentation map" file="docs.json">
+          {(d) => <Docs data={d} />}
         </Section>
       </main>
     </>

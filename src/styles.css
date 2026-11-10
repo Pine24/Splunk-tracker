@@ -74,3 +74,10 @@ nav a:hover { background: var(--line); text-decoration: none; }
   .wrap { padding: 0 .8rem; }
   .panel { padding: 1rem; border-radius: 12px; }
 }
+
+/* multi-column groups for docs and tools */
+.columns { column-gap: 2rem; columns: 1; margin-top: 1rem; }
+@media (min-width: 700px) { .columns { columns: 2; } }
+@media (min-width: 1040px) { .columns { columns: 3; } }
+.group { break-inside: avoid; margin-bottom: 1.4rem; }
+.panel .group h3 { margin-top: 0; }
