@@ -3,7 +3,7 @@
 A free, static site tracking Splunk lifecycle info. Hosted on GitHub Pages, data refreshed daily by GitHub Actions.
 
 ## Status
-- [x] Splunk 10+ versions with end-of-support countdown colors, plus an exact-version checker (10.2.4 resolves to 10.2)
+- [x] Splunk 10+ versions with end-of-support countdown colors
 - [x] Docs map with keyword filter (seed list, grow via crawl)
 - [x] Quick links (Crontab Guru, Regex101, ...)
 

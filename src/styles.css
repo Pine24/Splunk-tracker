@@ -15,4 +15,3 @@ nav { margin-top: .5rem; }
 section { margin-top: 2rem; }
 html { scroll-behavior: smooth; }
 .cloud { margin-top: 1rem; } .cloud summary { cursor: pointer; }
-.check { margin-bottom: 1.2rem; } .check label { display: block; font-weight: 600; } .check .search { margin-top: .4rem; font-weight: 400; }
