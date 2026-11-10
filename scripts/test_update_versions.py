@@ -1,7 +1,7 @@
 import sys
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
-from update_versions import parse
+from update_versions import parse, merge_fallback
 
 MARKDOWN = """
 | Version | Release Date | End of Splunk Enterprise Support Date | Criteria | End of Cloud Support Date | Criteria |
@@ -34,3 +34,17 @@ def test_raw_html():
     v = {x["version"]: x for x in parse(HTML)}
     assert v["10.2"]["released"] == "2026-01-15" and v["10.2"]["endOfSupport"] == "2028-01-15"
     assert v["10.3"]["endOfSupport"] is None
+
+
+def test_fallback_merge_keeps_unknown_and_updates_known():
+    existing = [
+        {"version": "10.6", "released": "2026-09-30", "endOfSupport": "2028-09-30", "cloudEndOfSupport": "2027-09-30"},
+        {"version": "10.4", "released": "2026-05-18", "endOfSupport": "2028-05-18", "cloudEndOfSupport": "2027-05-18"},
+    ]
+    feed = [{"cycle": "10.4", "releaseDate": "2026-05-18", "eol": "2028-05-19"},
+            {"cycle": "10.8", "releaseDate": "2027-01-01", "eol": "2029-01-01"},
+            {"cycle": "9.4", "releaseDate": "2024-12-16", "eol": "2026-12-16"}]
+    out = {v["version"]: v for v in merge_fallback(existing, feed)}
+    assert set(out) == {"10.8", "10.6", "10.4"}          # 9.4 skipped, 10.6 kept
+    assert out["10.4"]["endOfSupport"] == "2028-05-19"
+    assert out["10.4"]["cloudEndOfSupport"] == "2027-05-18"  # cloud data preserved
