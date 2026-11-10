@@ -1,4 +1,4 @@
-import { daysLeft, eolColor, eolLabel } from '../lib/eol.js'
+import { daysLeft, eolColor, eolLabel, elapsedFraction } from '../lib/eol.js'
 
 const byVersionDesc = (a, b) => b.version.localeCompare(a.version, undefined, { numeric: true })
 
@@ -14,12 +14,28 @@ export default function Versions({ data }) {
       <div className="cards">
         {enterprise.map((v) => (
           <article key={v.version} className="card" style={{ borderColor: eolColor(v.days) }}>
-            <h3>Splunk {v.version}</h3>
-            <p>Released {v.released}</p>
-            <p>End of support {v.endOfSupport}</p>
-            <span className="badge" style={{ background: eolColor(v.days) }}>
-              {eolLabel(v.days)}
-            </span>
+            <div className="card-head">
+              <h3>Splunk {v.version}</h3>
+              <span className="badge" style={{ background: eolColor(v.days) }}>
+                {eolLabel(v.days)}
+              </span>
+            </div>
+            <div
+              className="bar"
+              role="img"
+              aria-label={`${Math.round(elapsedFraction(v.released, v.endOfSupport) * 100)}% of the support period elapsed`}
+            >
+              <span
+                style={{
+                  width: `${elapsedFraction(v.released, v.endOfSupport) * 100}%`,
+                  background: eolColor(v.days),
+                }}
+              />
+            </div>
+            <dl className="dates">
+              <div><dt>Released</dt><dd>{v.released}</dd></div>
+              <div><dt>Ends</dt><dd>{v.endOfSupport}</dd></div>
+            </dl>
           </article>
         ))}
       </div>

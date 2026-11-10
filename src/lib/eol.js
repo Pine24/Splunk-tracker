@@ -22,3 +22,11 @@ export function eolLabel(days) {
   const months = Math.round(days / 30.4)
   return months < 24 ? `${months} months left` : `${(days / 365).toFixed(1)} years left`
 }
+
+// Fraction (0..1) of the support window already elapsed, for the timeline bar.
+export function elapsedFraction(released, endDate, now = new Date()) {
+  const start = new Date(released + 'T00:00:00Z').getTime()
+  const end = new Date(endDate + 'T00:00:00Z').getTime()
+  if (!(end > start)) return 1
+  return Math.min(Math.max((now.getTime() - start) / (end - start), 0), 1)
+}

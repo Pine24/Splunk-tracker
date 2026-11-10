@@ -1,6 +1,6 @@
 import test from 'node:test'
 import assert from 'node:assert/strict'
-import { daysLeft, eolColor, eolLabel } from './eol.js'
+import { daysLeft, eolColor, eolLabel, elapsedFraction } from './eol.js'
 
 test('daysLeft counts whole days', () => {
   assert.equal(daysLeft('2026-12-16', new Date('2026-11-16T10:00:00Z')), 30)
@@ -18,4 +18,11 @@ test('labels', () => {
   assert.equal(eolLabel(0), 'End of support')
   assert.equal(eolLabel(30), '30 days left')
   assert.match(eolLabel(200), /months left/)
+})
+
+test('elapsedFraction clamps and interpolates', () => {
+  assert.equal(elapsedFraction('2026-01-01', '2028-01-01', new Date('2025-01-01T00:00:00Z')), 0)
+  assert.equal(elapsedFraction('2026-01-01', '2028-01-01', new Date('2030-01-01T00:00:00Z')), 1)
+  const mid = elapsedFraction('2026-01-01', '2028-01-01', new Date('2027-01-01T00:00:00Z'))
+  assert.ok(mid > 0.49 && mid < 0.51)
 })
