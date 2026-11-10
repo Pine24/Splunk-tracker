@@ -1,0 +1,9 @@
+:root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+body { margin: 0; }
+main { max-width: 960px; margin: 0 auto; padding: 2rem 1rem; }
+.sub, .meta { opacity: .7; }
+.cards { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+.card { border: 2px solid; border-radius: 10px; padding: 1rem; }
+.card h3 { margin-top: 0; }
+.badge { display: inline-block; padding: .2rem .6rem; border-radius: 999px; color: #fff; font-size: .85rem; }
+.err { color: #c0392b; }
