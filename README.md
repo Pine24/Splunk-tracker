@@ -5,7 +5,6 @@ A free, static site tracking Splunk lifecycle info. Hosted on GitHub Pages, data
 ## Status
 - [x] Splunk 10+ versions with end-of-support countdown colors
 - [x] Docs map with keyword filter (seed list, grow via crawl)
-- [x] Splunkbase recent updates (watchlist in scripts/watchlist.json: ES, ESCU, DB Connect, ITSI)
 - [x] Quick links (Crontab Guru, Regex101, ...)
 
 ## Develop
@@ -22,8 +21,3 @@ python -m pytest scripts   # scraper tests
 If the official page layout changes the script fails loudly and leaves the data untouched.
 The seed data was entered by hand and must be verified against the
 [official support policy](https://www.splunk.com/en_us/legal/splunk-software-support-policy.html).
-
-## Data schema notes
-`versions[].patches` is optional: `[{ "version": "10.2.4", "released": "YYYY-MM-DD" }]`.
-When present, the version card shows an expandable patch list. Patches inherit their minor's end-of-support date.
-No patch data is populated yet; a verified source (release notes) is still to be wired in.

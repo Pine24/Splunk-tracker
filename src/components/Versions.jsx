@@ -20,19 +20,6 @@ export default function Versions({ data }) {
             <span className="badge" style={{ background: eolColor(v.days) }}>
               {eolLabel(v.days)}
             </span>
-            {v.patches?.length > 0 && (
-              <details className="patches">
-                <summary>{v.patches.length} patch releases</summary>
-                <ul>
-                  {[...v.patches].sort(byVersionDesc).map((p) => (
-                    <li key={p.version}>
-                      {p.version}
-                      {p.released ? ` · ${p.released}` : ''}
-                    </li>
-                  ))}
-                </ul>
-              </details>
-            )}
           </article>
         ))}
       </div>
