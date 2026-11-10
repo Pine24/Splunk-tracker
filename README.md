@@ -5,7 +5,7 @@ A free, static site tracking Splunk lifecycle info. Hosted on GitHub Pages, data
 ## Status
 - [x] Splunk 10+ versions with end-of-support countdown colors
 - [x] Docs map with keyword filter (seed list, grow via crawl)
-- [ ] Splunkbase recent updates (Splunk-maintained apps)
+- [x] Splunkbase recent updates (watchlist in scripts/watchlist.json: ES, ESCU, DB Connect, ITSI)
 - [x] Quick links (Crontab Guru, Regex101, ...)
 
 ## Develop

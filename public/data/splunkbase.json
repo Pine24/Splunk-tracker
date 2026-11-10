@@ -1,0 +1,54 @@
+{
+  "generated": "2026-11-10T00:00:00Z",
+  "source": "seed: DB Connect read from the Splunkbase API on 2026-11-10; other apps fill in on the first successful refresh",
+  "apps": [
+    {
+      "id": 263,
+      "name": "Splunk Enterprise Security (ES)",
+      "url": "https://splunkbase.splunk.com/app/263/",
+      "releases": []
+    },
+    {
+      "id": 3449,
+      "name": "Splunk ES Content Update (ESCU)",
+      "url": "https://splunkbase.splunk.com/app/3449/",
+      "releases": []
+    },
+    {
+      "id": 2686,
+      "name": "Splunk DB Connect",
+      "title": "Splunk DB Connect",
+      "url": "https://splunkbase.splunk.com/app/2686/",
+      "updated": "2026-05-20",
+      "releases": [
+        {
+          "version": "4.3.0",
+          "published": "2026-05-11",
+          "notesUrl": null,
+          "splunkVersions": [],
+          "cloudCompatible": true
+        },
+        {
+          "version": "4.2.4",
+          "published": "2026-04-20",
+          "notesUrl": null,
+          "splunkVersions": [],
+          "cloudCompatible": true
+        },
+        {
+          "version": "4.1.4",
+          "published": "2025-12-22",
+          "notesUrl": null,
+          "splunkVersions": [],
+          "cloudCompatible": true
+        }
+      ]
+    },
+    {
+      "id": 1841,
+      "name": "Splunk IT Service Intelligence (ITSI)",
+      "url": "https://splunkbase.splunk.com/app/1841/",
+      "releases": []
+    }
+  ]
+}

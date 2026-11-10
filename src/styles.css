@@ -16,3 +16,4 @@ section { margin-top: 2rem; }
 html { scroll-behavior: smooth; }
 .cloud { margin-top: 1rem; } .cloud summary { cursor: pointer; }
 .patches { margin-top: .6rem; font-size: .9rem; } .patches summary { cursor: pointer; } .patches ul { margin: .3rem 0 0; padding-left: 1.1rem; }
+.badge.new { background: #2563eb; font-size: .7rem; padding: .1rem .45rem; color: #fff; }
