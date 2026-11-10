@@ -14,3 +14,4 @@ main { max-width: 960px; margin: 0 auto; padding: 2rem 1rem; }
 nav { margin-top: .5rem; }
 section { margin-top: 2rem; }
 html { scroll-behavior: smooth; }
+.cloud { margin-top: 1rem; } .cloud summary { cursor: pointer; }
