@@ -9,6 +9,34 @@ function Note({ text }) {
   )
 }
 
+const VISIBLE = 10
+
+function GroupList({ items }) {
+  const [gq, setGq] = useState('')
+  const terms = gq.toLowerCase().split(/\s+/).filter(Boolean)
+  const list = terms.length ? items.filter((d) => terms.every((t) => d.title.toLowerCase().includes(t))) : items
+  return (
+    <>
+      {items.length > VISIBLE && (
+        <input
+          type="search"
+          className="search mini"
+          placeholder={`Search ${items.length} links…`}
+          value={gq}
+          onChange={(e) => setGq(e.target.value)}
+          aria-label="Filter this category"
+        />
+      )}
+      <ul className="scroll">
+        {list.map((d) => (
+          <li key={d.url}><a href={d.url} target="_blank" rel="noreferrer" title={d.title}>{d.title}</a></li>
+        ))}
+        {!list.length && <li className="empty">No matches</li>}
+      </ul>
+    </>
+  )
+}
+
 export default function Docs({ data }) {
   const [q, setQ] = useState('')
   const shown = filterDocs(data.docs, q)
@@ -29,11 +57,7 @@ export default function Docs({ data }) {
         <div key={cat} className="group">
           <h3>{cat}</h3>
           {data.notes?.[cat] && <Note text={data.notes[cat]} />}
-          <ul>
-            {items.map((d) => (
-              <li key={d.url}><a href={d.url} target="_blank" rel="noreferrer">{d.title}</a></li>
-            ))}
-          </ul>
+          <GroupList items={items} />
         </div>
       ))}
       </div>

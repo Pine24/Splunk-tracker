@@ -25,7 +25,7 @@ nav a { color: var(--text); padding: .35rem .8rem; border-radius: 999px; font-si
 nav a:hover { background: var(--line); text-decoration: none; }
 
 /* page layout: versions full width, docs + tools side by side */
-.layout { display: grid; gap: 1.25rem; padding-top: 1.25rem; padding-bottom: 3rem; grid-template-columns: 1fr; }
+.layout { display: grid; gap: 1.25rem; padding-top: 1.25rem; padding-bottom: 3rem; grid-template-columns: minmax(0, 1fr); }
 @media (min-width: 960px) {
   .layout { grid-template-columns: 270px minmax(0, 1fr); align-items: start; }
   .side { grid-column: 1; grid-row: 1 / span 2; position: sticky; top: 5rem; max-height: calc(100vh - 6rem); overflow-y: auto; }
@@ -90,3 +90,13 @@ nav a:hover { background: var(--line); text-decoration: none; }
 
 .note { color: var(--muted); font-size: .8rem; margin: .1rem 0 .5rem; line-height: 1.45; }
 .note code { font-size: .76rem; padding: .05rem .3rem; border-radius: 4px; background: var(--line); color: var(--text); word-break: break-all; }
+
+/* per-category list: ten single-line rows visible, rest scrolls */
+.search.mini { padding: .35rem .6rem; font-size: .85rem; margin: .2rem 0 .3rem; }
+.panel ul.scroll li { height: 2.4rem; padding: 0; display: flex; align-items: center; }
+.panel ul.scroll li a { display: block; width: 100%; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.panel ul.scroll { max-height: 24rem; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; padding-right: .3rem; }
+.panel ul.scroll li.empty { color: var(--muted); font-size: .85rem; }
+.panel ul.scroll, .panel ul.scroll li { min-width: 0; }
+.panel ul.scroll li a { min-width: 0; flex: 1 1 0; }
+.group { min-width: 0; }
