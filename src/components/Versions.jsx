@@ -1,3 +1,4 @@
+import VersionCheck from './VersionCheck.jsx'
 import { daysLeft, eolColor, eolLabel } from '../lib/eol.js'
 
 const byVersionDesc = (a, b) => b.version.localeCompare(a.version, undefined, { numeric: true })
@@ -11,6 +12,7 @@ export default function Versions({ data }) {
 
   return (
     <>
+      <VersionCheck versions={data.versions} />
       <div className="cards">
         {enterprise.map((v) => (
           <article key={v.version} className="card" style={{ borderColor: eolColor(v.days) }}>
