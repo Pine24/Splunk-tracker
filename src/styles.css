@@ -7,3 +7,10 @@ main { max-width: 960px; margin: 0 auto; padding: 2rem 1rem; }
 .card h3 { margin-top: 0; }
 .badge { display: inline-block; padding: .2rem .6rem; border-radius: 999px; color: #fff; font-size: .85rem; }
 .err { color: #c0392b; }
+.search { width: 100%; box-sizing: border-box; padding: .6rem .8rem; font-size: 1rem; border-radius: 8px; border: 1px solid #8887; }
+.link { display: flex; flex-direction: column; gap: .3rem; text-decoration: none; color: inherit; border-color: #8886; }
+.link:hover { border-color: #3b82f6; }
+.link span { opacity: .7; font-size: .9rem; }
+nav { margin-top: .5rem; }
+section { margin-top: 2rem; }
+html { scroll-behavior: smooth; }

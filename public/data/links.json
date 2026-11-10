@@ -1,0 +1,30 @@
+{
+  "groups": [
+    {
+      "name": "Regex, time and scheduling",
+      "links": [
+        { "title": "Crontab Guru", "url": "https://crontab.guru/", "desc": "Decode cron expressions (scheduled searches, alerts)" },
+        { "title": "Regex101", "url": "https://regex101.com/", "desc": "Test and debug regex for rex, props/transforms" },
+        { "title": "strftime.org", "url": "https://strftime.org/", "desc": "strftime/strptime format cheat sheet (TIME_FORMAT, eval strftime)" },
+        { "title": "Epoch Converter", "url": "https://www.epochconverter.com/", "desc": "Convert epoch to human time and back" }
+      ]
+    },
+    {
+      "name": "Data wrangling",
+      "links": [
+        { "title": "CyberChef", "url": "https://gchq.github.io/CyberChef/", "desc": "Decode, parse and transform data" },
+        { "title": "JWT.io", "url": "https://jwt.io/", "desc": "Inspect JSON Web Tokens" }
+      ]
+    },
+    {
+      "name": "Splunk official",
+      "links": [
+        { "title": "Splunkbase", "url": "https://splunkbase.splunk.com/", "desc": "Apps and add-ons" },
+        { "title": "Splunk Help", "url": "https://help.splunk.com/", "desc": "Current product documentation" },
+        { "title": "Splunk Developer Portal", "url": "https://dev.splunk.com/", "desc": "REST API, app development, AppInspect" },
+        { "title": "Splunk Lantern", "url": "https://lantern.splunk.com/", "desc": "Use-case and best-practice guidance" },
+        { "title": "Splunk Community", "url": "https://community.splunk.com/", "desc": "Questions and answers" }
+      ]
+    }
+  ]
+}

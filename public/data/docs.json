@@ -1,0 +1,15 @@
+{
+  "generated": "2026-11-10T00:00:00Z",
+  "source": "seed: hand-picked, each URL seen in official search results. Grow it with a sitemap crawl.",
+  "docs": [
+    { "category": "Release notes", "title": "Welcome to Splunk Enterprise 10.2 (what's new)", "url": "https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/release-notes/10.2/whats-new/welcome-to-splunk-enterprise-10.2" },
+    { "category": "Release notes", "title": "Deprecated and removed in version 10.2", "url": "https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/release-notes/10.2/deprecated-features" },
+    { "category": "Release notes", "title": "Deprecated and removed in version 10.0", "url": "https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/release-notes/10.0/deprecated-features" },
+    { "category": "Compatibility and support", "title": "Splunk products version compatibility matrix", "url": "https://help.splunk.com/en/splunk-enterprise/release-notes-and-updates/compatibility-matrix/splunk-products-version-compatibility/splunk-products-version-compatibility-matrix" },
+    { "category": "Compatibility and support", "title": "Splunk Software Support Policy", "url": "https://www.splunk.com/en_us/legal/splunk-software-support-policy.html" },
+    { "category": "Install and upgrade", "title": "About upgrading to 10.2: READ THIS FIRST", "url": "https://help.splunk.com/en/splunk-enterprise/administer/install-and-upgrade/10.2/upgrade-or-migrate-splunk-enterprise/about-upgrading-to-10.2-read-this-first" },
+    { "category": "Splunk Cloud administration", "title": "Manage Splunkbase apps in Splunk Cloud Platform (ACS API)", "url": "https://help.splunk.com/en/splunk-cloud-platform/administer/admin-config-service-manual/10.3.2512/administer-splunk-cloud-platform-using-the-admin-config-service-acs-api/manage-splunkbase-apps-in-splunk-cloud-platform" },
+    { "category": "Developer", "title": "Splunkbase API reference", "url": "https://dev.splunk.com/enterprise/reference/splunkbase/" },
+    { "category": "SOAR", "title": "Splunk SOAR Platform API: App REST", "url": "https://docs.splunk.com/Documentation/SOAR/latest/PlatformAPI/RESTApp" }
+  ]
+}
