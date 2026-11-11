@@ -16,6 +16,7 @@ export default function App() {
             <a href="#versions">Versions</a>
             <a href="#tools">Tools</a>
             <a href="#docs">Docs</a>
+            <a href="#itsi">ITSI</a>
           </nav>
         </div>
       </header>
@@ -28,6 +29,9 @@ export default function App() {
         </Section>
         <Section id="docs" className="main-col" title="Documentation map" file="docs.json">
           {(d) => <Docs data={d} />}
+        </Section>
+        <Section id="itsi" className="main-col" title="Splunk ITSI documentation" file="itsi-docs.json">
+          {(d) => <Docs data={d} placeholder="Filter ITSI docs by keyword (e.g. kpi, upgrade, episode)" />}
         </Section>
       </main>
     </>

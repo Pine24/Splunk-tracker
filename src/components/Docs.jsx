@@ -19,7 +19,7 @@ function GroupList({ items }) {
   )
 }
 
-export default function Docs({ data }) {
+export default function Docs({ data, placeholder = 'Filter docs by keyword (e.g. upgrade 10.2)' }) {
   const [q, setQ] = useState('')
   const shown = filterDocs(data.docs, q)
   const groups = groupBy(shown, 'category')
@@ -28,7 +28,7 @@ export default function Docs({ data }) {
       <input
         type="search"
         className="search"
-        placeholder="Filter docs by keyword (e.g. upgrade 10.2)"
+        placeholder={placeholder}
         value={q}
         onChange={(e) => setQ(e.target.value)}
         aria-label="Filter documentation links"

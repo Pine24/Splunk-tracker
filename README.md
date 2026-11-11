@@ -6,6 +6,7 @@ A free, static site tracking Splunk lifecycle info. Hosted on GitHub Pages, data
 - [x] Splunk 10+ versions with end-of-support countdown colors
 - [x] Docs map with keyword filter (hand-picked links in 15 categories)
 - [x] Quick links (Crontab Guru, Regex101, ...)
+- [x] ITSI docs: all official ITSI manuals (5.0) under their own headline, `public/data/itsi-docs.json`
 
 ## Develop
 ```

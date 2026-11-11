@@ -4,8 +4,8 @@ import { readFileSync } from 'node:fs'
 
 const load = (f) => JSON.parse(readFileSync(new URL(`../../public/data/${f}`, import.meta.url), 'utf8'))
 
-test('docs.json: complete entries, https URLs, no duplicates', () => {
-  const { docs } = load('docs.json')
+for (const file of ['docs.json', 'itsi-docs.json']) test(`${file}: complete entries, https URLs, no duplicates`, () => {
+  const { docs } = load(file)
   const urls = new Set()
   for (const d of docs) {
     assert.ok(d.category && d.title && d.url, `incomplete entry: ${JSON.stringify(d)}`)

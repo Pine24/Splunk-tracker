@@ -1,0 +1,562 @@
+{
+  "generated": "2026-11-11T00:00:00Z",
+  "source": "hand-picked from the official ITSI documentation on help.splunk.com (ITSI landing: https://help.splunk.com/en/splunk-it-service-intelligence). Links open at ITSI 5.0, the latest release; switch version with the selector on help.splunk.com.",
+  "docs": [
+    {
+      "category": "Choose an IT monitoring app",
+      "title": "IT operations product overview (ITSI vs ITE Work vs ITE Learn)",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/choose-an-it-monitoring-app/it-operations-product-overview"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Introduction",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/introduction"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Plan your ITSI deployment",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/planning/plan-your-itsi-deployment"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Plan ITSI upgrade and KV store migration",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/planning/plan-itsi-upgrade-and-kv-store-migration"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "ITSI compatibility with related apps and add-ons",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/planning/itsi-compatibility-with-related-apps-and-add-ons"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Python 3 migration with ITSI",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/planning/python-3-migration-with-itsi"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Install ITSI on a single instance",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/installation/install-splunk-it-service-intelligence-on-a-single-instance"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Install ITSI in a FIPS enabled environment",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/installation/install-itsi-in-a-fips-enabled-environment"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Where to install ITSI in a distributed environment",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/installation/where-to-install-it-service-intelligence-in-a-distributed-environment"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Install ITSI in a search head cluster",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/installation/install-it-service-intelligence-in-a-search-head-cluster-environment"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Configure indexes in ITSI",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/installation/configure-indexes-in-itsi"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Multiple ITSI deployments on the same indexing layer",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/installation/configure-multiple-itsi-deployments-to-use-the-same-indexing-layer"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Uninstall ITSI",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/installation/uninstall-splunk-it-service-intelligence"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Before you upgrade ITSI",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/upgrading/before-you-upgrade-it-service-intelligence"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "ITSI upgrade paths",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/upgrading/itsi-upgrade-paths"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Upgrade ITSI on a single instance",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/upgrading/upgrade-it-service-intelligence-on-a-single-instance"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Upgrade ITSI in a search head cluster",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/upgrading/upgrade-it-service-intelligence-in-a-search-head-cluster-environment"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Version-specific upgrade notes for ITSI",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/upgrading/version-specific-upgrade-notes-for-itsi"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Roll back an upgrade of ITSI",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/upgrading/roll-back-an-upgrade-of-itsi"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Troubleshoot an upgrade of ITSI",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/upgrading/troubleshoot-an-upgrade-of-it-service-intelligence"
+    },
+    {
+      "category": "Install and upgrade",
+      "title": "Address the Apache Log4j vulnerabilities in ITSI",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/install-and-upgrade/5.0/upgrading/steps-to-address-the-apache-log4j-vulnerabilities-in-itsi-or-it-essentials-work"
+    },
+    {
+      "category": "Administer",
+      "title": "About administering ITSI",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/administer/5.0/overview/about-administering-it-service-intelligence"
+    },
+    {
+      "category": "Administer",
+      "title": "Permissions",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/administer/5.0/permissions"
+    },
+    {
+      "category": "Administer",
+      "title": "Teams",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/administer/5.0/teams"
+    },
+    {
+      "category": "Administer",
+      "title": "Maintenance windows",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/administer/5.0/maintenance-windows"
+    },
+    {
+      "category": "Administer",
+      "title": "Backup and restore",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/administer/5.0/backup-and-restore"
+    },
+    {
+      "category": "Administer",
+      "title": "ITSI indexes",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/administer/5.0/itsi-indexes"
+    },
+    {
+      "category": "Administer",
+      "title": "Troubleshooting",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/administer/5.0/troubleshooting"
+    },
+    {
+      "category": "Administer",
+      "title": "Dashboards (incl. Upgrade Readiness)",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/administer/5.0/dashboards"
+    },
+    {
+      "category": "Administer",
+      "title": "Advanced configuration",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/administer/5.0/advanced-configuration"
+    },
+    {
+      "category": "Administer",
+      "title": "Administer ITSI with configuration files",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/administer/5.0/administer-splunk-itsi-with-configuration-files"
+    },
+    {
+      "category": "Administer",
+      "title": "Configuration file reference",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/administer/5.0/configuration-file-reference"
+    },
+    {
+      "category": "Administer",
+      "title": "Use Cloud Connect with ITSI",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/administer/5.0/use-cloud-connect-with-splunk-it-service-intelligence"
+    },
+    {
+      "category": "Administer",
+      "title": "Use ITSI with Splunk MCP Server",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/administer/5.0/use-it-service-intelligence-with-splunk-mcp-server"
+    },
+    {
+      "category": "Discover and integrate IT components",
+      "title": "What is an entity integration?",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/discover-and-integrate-it-components/5.0/get-started/what-is-an-entity-integration"
+    },
+    {
+      "category": "Discover and integrate IT components",
+      "title": "Configure integrations in Splunk platform",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/discover-and-integrate-it-components/5.0/configure-integrations-in-splunk-platform"
+    },
+    {
+      "category": "Discover and integrate IT components",
+      "title": "Configure integrations in Splunk Cloud Platform",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/discover-and-integrate-it-components/5.0/configure-integrations-in-splunk-cloud-platform"
+    },
+    {
+      "category": "Discover and integrate IT components",
+      "title": "Content packs",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/discover-and-integrate-it-components/5.0/content-packs"
+    },
+    {
+      "category": "Discover and integrate IT components",
+      "title": "Create and manage entities",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/discover-and-integrate-it-components/5.0/create-and-manage-entities"
+    },
+    {
+      "category": "Discover and integrate IT components",
+      "title": "Entity types",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/discover-and-integrate-it-components/5.0/entity-types"
+    },
+    {
+      "category": "Discover and integrate IT components",
+      "title": "Entity Overview",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/discover-and-integrate-it-components/5.0/entity-overview"
+    },
+    {
+      "category": "Discover and integrate IT components",
+      "title": "Configure Unix and Linux entity integrations",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/discover-and-integrate-it-components/5.0/configure-unix-and-linux-entity-integrations"
+    },
+    {
+      "category": "Discover and integrate IT components",
+      "title": "Configure Windows entity integrations",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/discover-and-integrate-it-components/5.0/configure-windows-entity-integrations"
+    },
+    {
+      "category": "Discover and integrate IT components",
+      "title": "Configure VMware vSphere entity integrations",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/discover-and-integrate-it-components/5.0/configure-vmware-vsphere-entity-integrations"
+    },
+    {
+      "category": "Discover and integrate IT components",
+      "title": "Configure Splunk Infrastructure Monitoring entity integrations",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/discover-and-integrate-it-components/5.0/configure-splunk-infrastructure-monitoring-entity-integrations"
+    },
+    {
+      "category": "Discover and integrate IT components",
+      "title": "Migrate from Splunk App for Infrastructure to ITSI",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/discover-and-integrate-it-components/5.0/migrate-from-splunk-app-for-infrastructure-to-it-service-intelligence"
+    },
+    {
+      "category": "Visualize and assess service health",
+      "title": "Overview of Service Insights in ITSI",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/visualize-and-assess-service-health/5.0/overview/overview-of-service-insights-in-itsi"
+    },
+    {
+      "category": "Visualize and assess service health",
+      "title": "Create services",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/visualize-and-assess-service-health/5.0/create-services"
+    },
+    {
+      "category": "Visualize and assess service health",
+      "title": "Service Sandbox",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/visualize-and-assess-service-health/5.0/service-sandbox"
+    },
+    {
+      "category": "Visualize and assess service health",
+      "title": "Service Analyzer",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/visualize-and-assess-service-health/5.0/service-analyzer"
+    },
+    {
+      "category": "Visualize and assess service health",
+      "title": "Create KPIs",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/visualize-and-assess-service-health/5.0/create-kpis"
+    },
+    {
+      "category": "Visualize and assess service health",
+      "title": "Advanced thresholding",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/visualize-and-assess-service-health/5.0/advanced-thresholding"
+    },
+    {
+      "category": "Visualize and assess service health",
+      "title": "Deep dives",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/visualize-and-assess-service-health/5.0/deep-dives"
+    },
+    {
+      "category": "Visualize and assess service health",
+      "title": "KPI alerting",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/visualize-and-assess-service-health/5.0/kpi-alerting"
+    },
+    {
+      "category": "Visualize and assess service health",
+      "title": "Service templates",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/visualize-and-assess-service-health/5.0/service-templates"
+    },
+    {
+      "category": "Visualize and assess service health",
+      "title": "Predictive Analytics",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/visualize-and-assess-service-health/5.0/predictive-analytics"
+    },
+    {
+      "category": "Visualize and assess service health",
+      "title": "Glass tables",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/visualize-and-assess-service-health/5.0/glass-tables"
+    },
+    {
+      "category": "Detect and act on notable events",
+      "title": "Overview of Event Analytics in ITSI",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/detect-and-act-on-notable-events/5.0/overview/overview-of-event-analytics-in-itsi"
+    },
+    {
+      "category": "Detect and act on notable events",
+      "title": "Event correlation",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/detect-and-act-on-notable-events/5.0/event-correlation"
+    },
+    {
+      "category": "Detect and act on notable events",
+      "title": "Third-party alerting",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/detect-and-act-on-notable-events/5.0/third-party-alerting"
+    },
+    {
+      "category": "Detect and act on notable events",
+      "title": "Notable events",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/detect-and-act-on-notable-events/5.0/notable-events"
+    },
+    {
+      "category": "Detect and act on notable events",
+      "title": "Event aggregation",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/detect-and-act-on-notable-events/5.0/event-aggregation"
+    },
+    {
+      "category": "Detect and act on notable events",
+      "title": "Episode Review",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/detect-and-act-on-notable-events/5.0/episode-review"
+    },
+    {
+      "category": "Detect and act on notable events",
+      "title": "Episode ticketing integrations",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/detect-and-act-on-notable-events/5.0/episode-ticketing-integrations"
+    },
+    {
+      "category": "Detect and act on notable events",
+      "title": "Rules Engine",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/detect-and-act-on-notable-events/5.0/rules-engine"
+    },
+    {
+      "category": "Detect and act on notable events",
+      "title": "Best practices and troubleshooting",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/detect-and-act-on-notable-events/5.0/best-practices-and-troubleshooting"
+    },
+    {
+      "category": "Detect and act on notable events",
+      "title": "Event Analytics dashboards",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/detect-and-act-on-notable-events/5.0/event-analytics-dashboards"
+    },
+    {
+      "category": "Detect and act on notable events",
+      "title": "Notable Event Action SDK",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/detect-and-act-on-notable-events/5.0/notable-event-action-sdk"
+    },
+    {
+      "category": "ITSI modules",
+      "title": "Overview of modules in ITSI",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/reduce-time-to-insights/4.18/introduction/overview-of-modules-in-itsi"
+    },
+    {
+      "category": "ITSI modules",
+      "title": "Install and configure ITSI modules",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/reduce-time-to-insights/4.18/introduction/install-and-configure-itsi-modules"
+    },
+    {
+      "category": "ITSI modules",
+      "title": "ITSI module visualizations",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/reduce-time-to-insights/4.18/introduction/itsi-module-visualizations"
+    },
+    {
+      "category": "ITSI modules",
+      "title": "ITSI module performance and sizing guidelines",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/reduce-time-to-insights/4.18/introduction/itsi-module-performance-and-sizing-guidelines"
+    },
+    {
+      "category": "ITSI modules",
+      "title": "Application Server Module",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/reduce-time-to-insights/4.18/application-server-module"
+    },
+    {
+      "category": "ITSI modules",
+      "title": "Database (DB) Module",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/reduce-time-to-insights/4.18/database-db-module"
+    },
+    {
+      "category": "ITSI modules",
+      "title": "End User Experience Monitoring (EUEM) Module",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/reduce-time-to-insights/4.18/end-user-experience-monitoring-euem-module"
+    },
+    {
+      "category": "ITSI modules",
+      "title": "Load Balancer (LB) Module",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/reduce-time-to-insights/4.18/load-balancer-lb-module"
+    },
+    {
+      "category": "ITSI modules",
+      "title": "Operating System (OS) Module",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/reduce-time-to-insights/4.18/operating-system-os-module"
+    },
+    {
+      "category": "ITSI modules",
+      "title": "Storage Module",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/reduce-time-to-insights/4.18/storage-module"
+    },
+    {
+      "category": "ITSI modules",
+      "title": "Virtualization Module",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/reduce-time-to-insights/4.18/virtualization-module"
+    },
+    {
+      "category": "ITSI modules",
+      "title": "Web Server Module",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/reduce-time-to-insights/4.18/web-server-module"
+    },
+    {
+      "category": "ITSI modules",
+      "title": "Troubleshooting modules",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/reduce-time-to-insights/4.18/troubleshooting"
+    },
+    {
+      "category": "ITSI modules",
+      "title": "Modules release notes",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/reduce-time-to-insights/4.18/release-notes"
+    },
+    {
+      "category": "ITSI modules",
+      "title": "Remove module content",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/reduce-time-to-insights/4.18/remove-content"
+    },
+    {
+      "category": "REST API",
+      "title": "ITSI REST API reference",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/leverage-rest-apis/5.0/itsi-rest-api-reference/itsi-rest-api-reference"
+    },
+    {
+      "category": "REST API",
+      "title": "ITSI REST API schema",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/leverage-rest-apis/5.0/itsi-rest-api-schema"
+    },
+    {
+      "category": "Release notes",
+      "title": "New features in ITSI",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/release-notes-and-resources/5.0/release-notes/new-features-in-splunk-it-service-intelligence"
+    },
+    {
+      "category": "Release notes",
+      "title": "Fixed issues in ITSI",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/release-notes-and-resources/5.0/release-notes/fixed-issues-in-splunk-it-service-intelligence"
+    },
+    {
+      "category": "Release notes",
+      "title": "Known issues in ITSI",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/release-notes-and-resources/5.0/release-notes/known-issues-in-splunk-it-service-intelligence"
+    },
+    {
+      "category": "Release notes",
+      "title": "Removed features in ITSI",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/release-notes-and-resources/5.0/release-notes/removed-features-in-splunk-it-service-intelligence"
+    },
+    {
+      "category": "Release notes",
+      "title": "Third-party software",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-service-intelligence/release-notes-and-resources/5.0/third-party-software"
+    },
+    {
+      "category": "Content Packs for ITSI",
+      "title": "Content Packs for ITSI",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/content-packs-for-itsi/2.5/content-packs-for-itsi"
+    },
+    {
+      "category": "Content Packs for ITSI",
+      "title": "Overview of the Splunk App for Content Packs",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/content-packs-for-itsi/2.5/overview-of-the-splunk-app-for-content-packs"
+    },
+    {
+      "category": "Content Packs for ITSI",
+      "title": "Install the Splunk App for Content Packs",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/content-packs-for-itsi/2.5/install-the-splunk-app-for-content-packs"
+    },
+    {
+      "category": "Content Packs for ITSI",
+      "title": "Upgrade the Splunk App for Content Packs to 2.x",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/content-packs-for-itsi/2.5/upgrade-splunk-app-for-content-packs-to-version-2.x"
+    },
+    {
+      "category": "Content Packs for ITSI",
+      "title": "Migrate from legacy apps to content packs",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/content-packs-for-itsi/2.5/migrate-from-legacy-apps-to-content-packs"
+    },
+    {
+      "category": "Content Packs for ITSI",
+      "title": "Working with synthetic data",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/content-packs-for-itsi/2.5/working-with-synthetic-data"
+    },
+    {
+      "category": "Content Packs for ITSI",
+      "title": "Troubleshoot the Splunk App for Content Packs",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/content-packs-for-itsi/2.5/troubleshoot-the-splunk-app-for-content-packs"
+    },
+    {
+      "category": "Content Packs for ITSI",
+      "title": "Content Packs release notes",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/content-packs-for-itsi/2.5/release-notes"
+    },
+    {
+      "category": "Content Packs for ITSI",
+      "title": "Content Packs third-party software",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/content-packs-for-itsi/2.5/third-party-software"
+    },
+    {
+      "category": "IT Essentials Work and Learn",
+      "title": "IT Essentials Work: overview",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-essentials-work/overview-of-splunk-it-essentials-work"
+    },
+    {
+      "category": "IT Essentials Work and Learn",
+      "title": "IT Essentials Work: install",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-essentials-work/install"
+    },
+    {
+      "category": "IT Essentials Work and Learn",
+      "title": "IT Essentials Work: administer",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-essentials-work/administer"
+    },
+    {
+      "category": "IT Essentials Work and Learn",
+      "title": "IT Essentials Work: discover and integrate IT components",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-essentials-work/discover-and-integrate-it-components"
+    },
+    {
+      "category": "IT Essentials Work and Learn",
+      "title": "IT Essentials Work: review alerts",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-essentials-work/review-alerts"
+    },
+    {
+      "category": "IT Essentials Work and Learn",
+      "title": "IT Essentials Work: release notes",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/splunk-it-essentials-work/release-notes"
+    },
+    {
+      "category": "IT Essentials Work and Learn",
+      "title": "IT Essentials Learn: install",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/it-essentials-learn/install"
+    },
+    {
+      "category": "IT Essentials Work and Learn",
+      "title": "IT Essentials Learn: investigate your data",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/it-essentials-learn/investigate-your-data"
+    },
+    {
+      "category": "IT Essentials Work and Learn",
+      "title": "IT Essentials Learn: release notes and resources",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/it-essentials-learn/release-notes-and-resources"
+    },
+    {
+      "category": "Extend ITSI",
+      "title": "Service Intelligence for SAP Solutions",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/extend-itsi-and-ite-work/service-intelligence-for-sap-solutions"
+    },
+    {
+      "category": "Extend ITSI",
+      "title": "Splunk Infrastructure Monitoring Add-on",
+      "url": "https://help.splunk.com/en/splunk-it-service-intelligence/extend-itsi-and-ite-work/splunk-infrastructure-monitoring-add-on"
+    }
+  ],
+  "notes": {
+    "ITSI modules": "The modules manual is only published for ITSI 4.18; there is no 5.0 edition.",
+    "Content Packs for ITSI": "Versioned separately from ITSI (Splunk App for Content Packs 2.5).",
+    "IT Essentials Work and Learn": "Free sibling apps; their docs are not versioned in the URL.",
+    "Extend ITSI": "Not versioned in the URL."
+  }
+}

@@ -85,8 +85,8 @@ nav a:hover { background: var(--line); text-decoration: none; }
 
 /* sidebar: quick links stack in a single column; docs get more columns as width allows */
 .side .columns { columns: 1; margin-top: .6rem; }
-@media (min-width: 960px) and (max-width: 1399px) { #docs .columns { columns: 2; } }
-@media (min-width: 1400px) { #docs .columns { columns: 3; } }
+@media (min-width: 960px) and (max-width: 1399px) { #docs .columns, #itsi .columns { columns: 2; } }
+@media (min-width: 1400px) { #docs .columns, #itsi .columns { columns: 3; } }
 
 .note { color: var(--muted); font-size: .8rem; margin: .1rem 0 .5rem; line-height: 1.45; }
 .note code { font-size: .76rem; padding: .05rem .3rem; border-radius: 4px; background: var(--line); color: var(--text); word-break: break-all; }
