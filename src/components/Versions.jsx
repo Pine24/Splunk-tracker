@@ -34,7 +34,7 @@ export default function Versions({ data }) {
             </div>
             <dl className="dates">
               <div><dt>Released</dt><dd>{v.released}</dd></div>
-              <div><dt>Ends</dt><dd>{v.endOfSupport}</dd></div>
+              <div><dt>Support ends</dt><dd>{v.endOfSupport}</dd></div>
             </dl>
           </article>
         ))}
