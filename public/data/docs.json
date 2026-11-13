@@ -218,6 +218,21 @@
       "url": "https://help.splunk.com/en/splunk-enterprise/administer/distributed-search/10.4/deploy-search-head-clustering/deploy-a-search-head-cluster"
     },
     {
+      "category": "Forwarding and load balancing",
+      "title": "Set up load balancing (forwarders, 10.4)",
+      "url": "https://help.splunk.com/en/data-management/forward-data/forwarding-and-receiving-data/10.4.2604/perform-advanced-configuration"
+    },
+    {
+      "category": "Forwarding and load balancing",
+      "title": "Asynchronous load balancing: intermediate routing with UFs and HFs",
+      "url": "https://help.splunk.com/en/splunk-cloud-platform/splunk-validated-architectures/getting-data-in-forwarding-and-preprocessing/intermediate-data-routing-using-universal-and-heavy-forwarders"
+    },
+    {
+      "category": "Forwarding and load balancing",
+      "title": "Asynchronous load balancing: performance tuning the forwarding tier (Lantern)",
+      "url": "https://lantern.splunk.com/Platform_Data_Management/Optimize_Data/Performance_tuning_the_forwarding_tier"
+    },
+    {
       "category": "Common Information Model",
       "title": "Overview of the Splunk Common Information Model",
       "url": "https://help.splunk.com/en/data-management/common-information-model"
